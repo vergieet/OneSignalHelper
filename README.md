@@ -1,10 +1,10 @@
 # OneSignalHelper
 php helper for one signal
 
-#Constructor
-  app_id = One Signal app id
-  rest_api_key = One Signal rest api key
-
-#Function
-  sendToAll($message,$template_id='')
-  sendToUser($message,$template_id='')
+#Constructor<br>
+  app_id = One Signal app id<br>
+  rest_api_key = One Signal rest api key<br>
+<br><br>
+#Function<br>
+  sendToAll($message,$template_id='')<br>
+  sendToUser($message,$template_id='')<br>
