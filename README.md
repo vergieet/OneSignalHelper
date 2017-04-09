@@ -7,4 +7,4 @@ php helper for one signal
 <br><br>
 #Function<br>
   sendToAll($message,$template_id='')<br>
-  sendToUser($message,$template_id='')<br>
+  sendToUser($message,$player_ids,$template_id='')<br>
