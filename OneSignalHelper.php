@@ -51,8 +51,9 @@ class OneSignalHelper
         }
         
         $fields = json_encode($fields);
+        $url = "https://onesignal.com/api/v1/notifications";
         $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, "https://onesignal.com/api/v1/notifications");
+        curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json; charset=utf-8',   'Authorization: Basic ' . $this->rest_api_key));
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
         curl_setopt($ch, CURLOPT_HEADER, FALSE);
